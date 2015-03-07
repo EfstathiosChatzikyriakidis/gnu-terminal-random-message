@@ -1,0 +1,13 @@
+GNU trm client -- `NEWS' starts here
+
+News:
+
+  History of user-visible changes.
+
+  [-] version 0.1
+
+      * add option `-p', `--port'.
+      * add option `--usage'.
+      * add option `--version'.
+
+GNU trm client -- `NEWS' ends here

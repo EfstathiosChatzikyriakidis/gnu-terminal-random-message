@@ -1,0 +1,17 @@
+GNU trm server -- `NEWS' starts here
+
+News:
+
+  History of user-visible changes.
+
+  [-] version 0.1
+
+      * add option `-r', `--high-randomness'.
+      * use `GTRM_SERVER_INPUT' environment variable.
+      * add option `-t', `--ip-timestamp'.
+      * add option `-p', `--port'.
+      * add option `-i', `--input'.
+      * add option `--usage'.
+      * add option `--version'.
+
+GNU trm server -- `NEWS' ends here

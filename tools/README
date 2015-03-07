@@ -1,0 +1,13 @@
+GNU trm -- README starts here
+
+Readme:
+
+  We are pleased to announce the version 0.1 release of GNU trm.
+  All reported bugs in previous test releases have been fixed.
+  Some bugs surely remain.
+
+  See the file `INSTALL' for building and installation instructions.
+  Please send all bug reports by electronic mail to <bug-gnu-trm@gnu.org>.
+  GNU trm is free software. See the file `COPYING' for copying conditions.
+
+GNU trm -- README ends here

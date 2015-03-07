@@ -1,0 +1,13 @@
+@c sets for the GNU trm client manual.
+@set manual-version  1.0
+
+@c sets for the GNU trm client program, `gtrm-client'.
+@set gtrm-client-version  0.1
+@set gtrm-client-report-bugs  bug-gnu-trm-client@@gnu.org
+
+@c sets both for the `gtrm-client' and the manual.
+@set last-update  Nov 2006
+
+@c sets for the author.
+@set author-name  Efstathios Chatzikyriakidis
+@set author-email  contact@@efxa.org

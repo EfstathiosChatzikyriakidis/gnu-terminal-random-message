@@ -1,0 +1,15 @@
+GNU trm client -- `Changelog' starts here
+
+Changelog:
+
+  20/05/2006 20:24:11 Efstathios Chatzikyriakidis (contact@efxa.org)
+
+    * `parse_options.c'
+      - add option `-p', `--port'.
+      - add option `--version'.
+      - remove short options for `--help', `--usage'.
+
+    * add `Makefile'.
+    * add GNU General Public License to all src code files.
+
+GNU trm client -- Changelog ends here

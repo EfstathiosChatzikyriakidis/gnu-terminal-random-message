@@ -1,0 +1,21 @@
+GNU trm -- `NEWS' starts here
+
+News:
+
+  History of user-visible changes.
+
+  [-] version 0.1
+
+      * recognition of the comment lines which start with `#' or `!'.
+        note: this lines are ignored from the program.
+
+      * use `GTRM_INPUT' environment variable.
+      * use `GTRM_OUTPUT' environment variable.
+      * add option `-o', `--option'.
+      * add option `-i', `--input'.
+      * add option `-a', `--again'.
+      * add option `--usage'.
+      * add option `--version'.
+      * add option `-r', `--high-randomness'.
+
+GNU trm -- `NEWS' ends here

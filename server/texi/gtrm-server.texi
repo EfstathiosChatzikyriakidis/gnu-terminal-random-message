@@ -1,0 +1,205 @@
+\input texinfo @c -*-texinfo-*-
+
+@c  gtrm-server.texi -- this file is the texinfo manual
+@c                      page for GNU trm server command.
+@c  
+@c  Copyright (C) 2006 Efstathios Chatzikyriakidis (contact@efxa.org)
+@c  
+@c  This program is free software; you can redistribute it and/or modify
+@c  it under the terms of the GNU General Public License as published by
+@c  the Free Software Foundation; either version 2 of the License, or
+@c  (at your option) any later version.
+@c  
+@c  This program is distributed in the hope that it will be useful,
+@c  but WITHOUT ANY WARRANTY; without even the implied warranty of
+@c  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+@c  GNU General Public License for more details.
+@c  
+@c  You should have received a copy of the GNU General Public License
+@c  along with this program; if not, write to the Free Software
+@c  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+@c %**start of header
+@setfilename gtrm-server.info
+@include     sets.texi
+@settitle    GNU trm server Manual @value{manual-version}
+@c %**end of header
+
+@copying
+This file documents the GNU trm server program (version @value{gtrm-server-version},
+@value{last-update}).
+
+Copyright @copyright{} 2006 Efstathios Chatzikyriakidis (contact@@efxa.org)
+
+@quotation
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+@end quotation
+@end copying
+
+@ifinfo
+@dircategory Utilities
+@direntry
+* gtrm server: (gtrm-server).             GNU terminal random message server.
+@end direntry
+@end ifinfo
+
+@ifhtml
+@documentdescription
+GNU trm server, GNU terminal random message server, GNU trm server manual page
+@end documentdescription
+@end ifhtml
+
+@titlepage
+@title GNU trm server Manual @value{manual-version}
+@subtitle for @command{gtrm-server}, version @value{gtrm-server-version}, @value{last-update}.
+@author @value{author-name} (@email{@value{author-email}}).
+
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+     
+@shortcontents
+@contents
+
+@ifnottex
+@node Top, Instructions, (dir), (dir)
+@top GNU terminal random message server Manual @value{manual-version}
+
+@insertcopying
+
+@menu
+* Instructions::            How to read this manual.
+* Copying::                 How you can copy and share @command{gtrm-server}.
+* Overview::                Preliminary information.
+* Invoking gtrm-server::    How to run @command{gtrm-server}.
+* Problems::                Reporting bugs.
+* Concept Index::           Index of concepts.
+@end menu
+@end ifnottex
+
+@node Instructions, Copying, Top, Top
+@unnumbered How to read this manual
+@cindex How to read
+
+@indent
+To read this manual, begin at the beginning, reading from left to
+right and top to bottom, until you get to the end. Then stop. You
+may pause for a beer anywhere in the middle as well, if you wish.
+
+(Please note, however, that The King strongly advises against heavy
+use of prescription pharmaceuticals, based on his extensive personal
+and professional experience.)
+
+@node Copying, Overview, Instructions, Top
+@include gpl.texi
+
+@node Overview, Invoking gtrm-server, Copying, Top
+@unnumbered Overview
+
+@indent
+The GNU trm server sends random messages to any
+client request. However, it works like a daemon.
+
+@cindex Ascii files
+You can use @emph{only} ascii files.
+
+GNU trm server is @strong{protected} by the GNU General Public License.
+
+@xref{Copying, , GNU General Public License}.
+
+GNU trm server was written by @value{author-name}.
+
+@node Invoking gtrm-server, Problems, Overview, Top
+@unnumbered Invoking @command{gtrm-server}
+@cindex Command options
+
+The format for running the @command{gtrm-server} program is:
+
+@samp{gtrm-server [@var{options}]}
+
+@noindent
+The @command{gtrm-server} program supports the following options:
+
+@table @option
+@cindex @option{--port}
+@item --port `port'
+@itemx -p
+Bind to specified `port'. (optional). 
+
+@cindex @option{--input}
+@item --input `file'
+@itemx -i
+Read data from `file'.
+You can use also the environment variable: `GTRM_SERVER_INPUT'.
+
+@cindex @option{--high-randomness}
+@item --high-randomness
+@itemx -r
+High quality randomness.
+Use `/dev/random'. Default is: `/dev/urandom'.
+
+@cindex @option{--verbose}
+@item --verbose
+@itemx -v
+Explain what is being done.
+
+@cindex @option{--ip-timestamp}
+@item --ip-timestamp
+@itemx -t
+For each connection write an ip timestamp.
+
+@cindex @option{--help}
+@item --help
+Display a short help and exit.
+
+@cindex @option{--usage}
+@item --usage
+Same as @option{--help} option.
+
+@cindex @option{--version}
+@item --version
+Print version information and exit.
+@end table
+
+@node Problems, Concept Index, Invoking gtrm-server, Top
+@unnumbered Reporting Bugs
+@cindex Reporting bugs
+
+If you find a bug in GNU trm server, please send electronic mail to:
+
+@samp{@email{@value{gtrm-server-report-bugs}}}
+
+@ifinfo
+@example
+   ,           ,
+  /             \
+ ((__-^^-,-^^-__))
+  `-_---' `---_-'
+   `--|o` 'o|--'
+      \  `  /      GNU wants freedom.
+       ): :(
+       :o_o:
+        "-"
+@end example
+@end ifinfo
+
+@node Concept Index, , Problems, Top
+@unnumbered Concept Index
+@cindex Tail recursion
+
+@printindex cp
+
+@bye

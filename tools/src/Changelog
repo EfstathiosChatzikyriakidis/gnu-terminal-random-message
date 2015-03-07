@@ -1,0 +1,42 @@
+GNU trm -- `Changelog' starts here
+
+Changelog:
+
+  29/09/2006 22:51:35 Efstathios Chatzikyriakidis (contact@efxa.org)
+
+    * `ordered_linked_list.c'
+     - change `enter ()' function.
+         If the line is a comment one or is just empty the
+         function ignores it and do not add it to the list.
+
+  25/05/2006 23:30:00 Efstathios Chatzikyriakidis (contact@efxa.org)
+
+    * `gtrm.c'
+      - define `MAX_LINE' to 1 Mbyte.
+      - use `program_invocation_short_name' variable.
+      - stop using `strerror()' function.
+      - use `error()' function to print error messages.
+
+    * `ordered_linked_list.c'
+      - add `free_list()' function.
+
+  20/05/2006 20:24:11 Efstathios Chatzikyriakidis (contact@efxa.org)
+
+    * `ordered_linked_list.c'
+      - add `init_list()' function.
+
+    * add file `program_messages.h'.
+
+    * `gtrm.c'
+      - add option `-o', `--output'.
+      - use `GTRM_INPUT' environment variable.
+      - use `GTRM_OUTPUT' environment variable.
+      - add option `--version'.
+      - remove short options for `--help', `--usage'.
+      - print all additional arguments with `-v', `--verbose'.
+      - print useful verbose messages.
+
+    * add file `Makefile'.
+    * add GNU General Public License to all src code files.
+	
+GNU trm -- Changelog ends here

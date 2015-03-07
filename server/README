@@ -1,0 +1,13 @@
+GNU trm server -- README starts here
+
+Readme:
+
+  We are pleased to announce the version 0.1 release of GNU trm server.
+  All reported bugs in previous test releases have been fixed.
+  Some bugs surely remain.
+
+  See the file `INSTALL' for building and installation instructions.
+  Please send all bug reports by electronic mail to <bug-gnu-trm-server@gnu.org>.
+  GNU trm server is free software. See the file `COPYING' for copying conditions.
+
+GNU trm server -- README ends here

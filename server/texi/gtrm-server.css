@@ -1,0 +1,43 @@
+/*
+ * gtrm-server.css -- this file is a css stylesheet which is used
+ *                    for GNU trm server manual page html format.
+ *
+ * Copyright (C) 2006 Efstathios Chatzikyriakidis (contact@efxa.org)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ *
+ */
+
+body {
+ margin      : 30px;
+ font-family : sans-serif, serif;
+ font-size   : 14px;
+ font-weight : normal;
+ color       : #444488;
+}
+
+a:link, a:visited {
+ font-family     : sans-serif, serif;
+ font-size       : 13px;
+ text-decoration : none;
+ color           : #4444FF;
+}
+
+a:active, a:hover {
+ font-family     : sans-serif, serif;
+ font-size       : 13px;
+ text-decoration : underline;
+ color           : #0000FF;
+}

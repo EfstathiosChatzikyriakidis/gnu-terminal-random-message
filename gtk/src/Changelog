@@ -1,0 +1,16 @@
+GNU xrm -- Changelog starts here
+
+Changelog:
+
+  20/05/2006 20:24:11 Efstathios Chatzikyriakidis (contact@efxa.org)
+
+    * add file `program_messages.h'.
+
+    * `gxrm.c'
+      - add option `--version'.
+      - remove short options for `--help', `--usage'.
+
+    * add `Makefile'.
+    * add GNU General Public License to all src code files.
+
+GNU xrm -- Changelog ends here

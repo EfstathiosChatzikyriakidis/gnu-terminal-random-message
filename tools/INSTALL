@@ -1,0 +1,13 @@
+GNU trm -- `INSTALL' starts here
+
+Install:
+
+  Be sure that your working directory is the `src' directory.
+
+  To make the program just type `make' and wait.
+
+  When `make' finishes you will be able to run the executable `gtrm'.
+
+  Happy Hacking!
+
+GNU trm -- `INSTALL' ends here

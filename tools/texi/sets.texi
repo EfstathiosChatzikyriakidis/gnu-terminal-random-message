@@ -1,0 +1,13 @@
+@c sets for the GNU trm manual.
+@set manual-version  1.0
+
+@c sets for the GNU trm program, `gtrm'.
+@set gtrm-version  0.1
+@set gtrm-report-bugs  bug-gnu-trm@@gnu.org
+
+@c sets both for the `gtrm' and the manual.
+@set last-update  Nov 2006
+
+@c sets for the author.
+@set author-name  Efstathios Chatzikyriakidis
+@set author-email  contact@@efxa.org
