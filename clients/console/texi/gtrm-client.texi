@@ -3,7 +3,7 @@
 @c  gtrm-client.texi -- this file is the texinfo manual
 @c                      page for GNU trm client command.
 @c  
-@c  Copyright (C) 2006 Efstathios Chatzikyriakidis (contact@efxa.org)
+@c  Copyright (C) 2006 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 @c  
 @c  This program is free software; you can redistribute it and/or modify
 @c  it under the terms of the GNU General Public License as published by

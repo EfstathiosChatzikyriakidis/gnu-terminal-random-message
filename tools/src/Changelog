@@ -2,14 +2,14 @@ GNU trm -- `Changelog' starts here
 
 Changelog:
 
-  29/09/2006 22:51:35 Efstathios Chatzikyriakidis (contact@efxa.org)
+  29/09/2006 22:51:35 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `ordered_linked_list.c'
      - change `enter ()' function.
          If the line is a comment one or is just empty the
          function ignores it and do not add it to the list.
 
-  25/05/2006 23:30:00 Efstathios Chatzikyriakidis (contact@efxa.org)
+  25/05/2006 23:30:00 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `gtrm.c'
       - define `MAX_LINE' to 1 Mbyte.
@@ -20,7 +20,7 @@ Changelog:
     * `ordered_linked_list.c'
       - add `free_list()' function.
 
-  20/05/2006 20:24:11 Efstathios Chatzikyriakidis (contact@efxa.org)
+  20/05/2006 20:24:11 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `ordered_linked_list.c'
       - add `init_list()' function.

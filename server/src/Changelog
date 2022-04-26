@@ -2,19 +2,19 @@ GNU trm server -- `Changelog' starts here
 
 Changelog:
 
-  30/09/2006 12:05:03 Efstathios Chatzikyriakidis (contact@efxa.org)
+  30/09/2006 12:05:03 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `parse_options.c`
       -	add option `-r', `--high-randomness'.
 
     * use `GTRM_SERVER_INPUT' environment variable.
 
-  21/06/2006 12:32:12 Efstathios Chatzikyriakidis (contact@efxa.org)
+  21/06/2006 12:32:12 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `for many src code files`.
       - change the define `MAX_LINE' to 1Mbyte.
 
-  20/06/2006 12:23:33 Efstathios Chatzikyriakidis (contact@efxa.org)
+  20/06/2006 12:23:33 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * add file `cleanup.c'.
     * add file `file_operations.c'.
@@ -22,7 +22,7 @@ Changelog:
     * `parse_options.c`
       - add option `-t', `--ip-timestamp'.
 
-  17/06/2006 11:44:23 Efstathios Chatzikyriakidis (contact@efxa.org)
+  17/06/2006 11:44:23 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `server_operations.c'
       - print new verbose messages.
@@ -31,7 +31,7 @@ Changelog:
     * `signal_handlers.c'
       - change `SIGCHLD' handler. use `waitpid()' function.
 
-  16/06/2006 01:08:34 Efstathios Chatzikyriakidis (contact@efxa.org)
+  16/06/2006 01:08:34 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `daemonize.c'
       - define `OPEN_MAX_GUESS' and use it.
@@ -56,7 +56,7 @@ Changelog:
     * `signal_handlers.c'
       - extern variable `keep_going' from `server_operations.c'.
 
-  20/05/2006 20:24:11 Efstathios Chatzikyriakidis (contact@efxa.org)
+  20/05/2006 20:24:11 Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
 
     * `server_operations.c'
       - add function `handle_send()'.
